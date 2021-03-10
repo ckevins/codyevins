@@ -26,6 +26,7 @@
   position:relative;
   background-color: #201547;
   padding-top: 10px;
+  z-index: 1;
 }
 
 .resume-router {
@@ -33,7 +34,7 @@
   background-color: black;
   padding-top: 10px;
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 
 .resume {
