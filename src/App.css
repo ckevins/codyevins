@@ -4,7 +4,9 @@
 
 .App-logo {
   height: 40vmin;
+  padding-top: 10px;
   pointer-events: none;
+  animation: logo-slide 1.5s ease-in;
 }
 
 
@@ -16,6 +18,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: 'Comfortaa', cursive;
+  animation: fade 1.5s ease-in;
 }
 
 .App-link {
@@ -31,6 +34,10 @@
 
 }
 
+.about {
+  animation: fade 1.5s ease-in;
+}
+
 .resume-router {
   animation: slide 1s;
   background-color: black;
@@ -44,6 +51,7 @@
   width: 60%;
   margin: 50px auto;
   display: flex;
+  animation: fade 1.5s ease-in;
 }
 
 .resume, h2 {
@@ -69,6 +77,7 @@
 .theatrical-resume {
   padding: 50px 0;
   font-family: 'Comfortaa', cursive;
+  animation: fade 1.5s ease-in;
 }
 
 .theatrical-resume-table {
@@ -94,6 +103,7 @@
   background-color: black;
   padding: 75px 0;
   font-family: 'Comfortaa', cursive;
+  animation: fade 1.5s ease-in;
 }
 
 .show-tiles {
@@ -151,4 +161,15 @@ li a {
 @keyframes slide {
   from { transform:translate(0, -65px) }
   to { transform:translate(0, 0) }
+}
+
+@keyframes logo-slide {
+  from { transform:translate(0, 40px) }
+  to { transform:translate(0, 0) }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
 }
