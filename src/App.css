@@ -117,6 +117,10 @@
   margin: auto;
 }
 
+.show-gallery {
+  padding-top: 50px;
+}
+
 .selected {
   text-decoration: underline;
   color:blanchedalmond;
@@ -158,6 +162,15 @@ li a {
 }
 
 #lighting-link {
+  height: 400px;
+  transition: transform 0.5s;
+}
+
+#lighting-link:hover{
+  transform: scale(1.1);
+}
+
+#show-photo {
   height: 400px;
 }
 

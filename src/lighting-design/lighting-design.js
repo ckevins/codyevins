@@ -4,10 +4,10 @@ import {
     Route,
     Link
   } from "react-router-dom";
-import ermaLink from './images/erma-bombeck/IMG_1662.png';
-import zombieLink from './images/zombie-prom/Honors Zombie Prom FinalHonors Zombie prom FinalZombie Prom Master_GGC7826.jpg';
-import showcaseLink from './images/appco-showcase/AppcoShowcase-27.jpg';
-import fclLink from './images/five-course-love/P216-C-200205-L.jpg';
+import ermaLink from './images/erma-bombeck/erma6.png';
+import zombieLink from './images/zombie-prom/zombie6.jpg';
+import showcaseLink from './images/appco-showcase/appco17.jpg';
+import fclLink from './images/five-course-love/fcl5.jpg';
 import { ErmaBombeck } from './erma-bombeck';
 import { ZombieProm } from './zombie-prom';
 import { AppcoShowcase } from './appco-showcase';
@@ -38,7 +38,7 @@ export function LightingDesign () {
                         </Link>
                     </div>
                     <div>
-                        <h1>Aurora AppCo Showcase 2018</h1>
+                        <h1>Aurora AppCo Showcase</h1>
                         <Link to='/aurora-appco-showcase'>
                             <img src={showcaseLink} 
                             alt='showcase cover' 
