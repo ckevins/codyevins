@@ -159,7 +159,7 @@ li a {
 }
 
 @keyframes slide {
-  from { transform:translate(0, -65px) }
+  from { transform:translate(0, -75px) }
   to { transform:translate(0, 0) }
 }
 
