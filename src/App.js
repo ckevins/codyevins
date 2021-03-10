@@ -7,6 +7,7 @@ import {
 import './App.css';
 import { Home } from './home/home';
 import { Resume } from './resume/resume';
+import { About } from './about/about';
 
 function App() {
   return (
@@ -21,11 +22,17 @@ function App() {
               <li>
                 <Link to='/resume'>Resume</Link>
               </li>
+              <li>
+                <Link to='/about'>About</Link>
+              </li>
             </ul>
           </nav>
           <Switch>
             <Route path='/resume'>
               <Resume/>
+            </Route>
+            <Route path='/about'>
+              <About/>
             </Route>
             <Route path='/'>
               <Home/>
