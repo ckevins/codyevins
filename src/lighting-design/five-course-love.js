@@ -7,7 +7,7 @@ import fcl5 from './images/five-course-love/fcl5.jpg';
 
 export function FiveCourseLove() {
     return (
-        <div>
+        <div className='show-gallery'>
             <h1>Five Course Love (2020)</h1>
             <h2>Marietta Theatre Company</h2>
             <p>Director: Stephanie Earle</p>

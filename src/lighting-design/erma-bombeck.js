@@ -8,7 +8,7 @@ import erma6 from './images/erma-bombeck/erma6.png';
 
 export function ErmaBombeck() {
     return (
-        <div  className='show-gallery'>
+        <div className='show-gallery'>
             <h1>Erma Bombeck (2019)</h1>
             <h2>Aurora Theatre</h2>
             <p>Director: Megan Rose-Houchins</p>
