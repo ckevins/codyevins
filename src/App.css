@@ -54,20 +54,17 @@
   animation: fade 1.5s ease-in;
 }
 
-.resume, h2 {
-  text-decoration: underline;
-}
-
 .resume-left-column {
-  width: 20%;
+  width: 25%;
 }
 
 .resume-right-column {
-  width: 80%;
+  width: 75%;
 }
 
 .resume-div {
   background-color: white;
+  border: blanchedalmond ridge 5px;
   color: black;
   text-align: left;
   margin: 10px;
@@ -97,6 +94,12 @@
 
 .supervisor-column {
   width: 20%;
+}
+
+.theatrical-resume-lower {
+  width: 25%;
+  margin: auto;
+  text-align: left;
 }
 
 .lighting-portfolio {
@@ -164,7 +167,7 @@ li a {
 }
 
 @keyframes logo-slide {
-  from { transform:translate(0, 40px) }
+  from { transform:translate(0, 30px) }
   to { transform:translate(0, 0) }
 }
 

@@ -7,7 +7,9 @@ export function WebDevelopmentResume() {
                 <div className='resume-div'>
                     <h2>Education</h2>
                     <p>Furman University</p>
-                    <p>BA in Theatre Arts</p>
+                    <p>BA in Theatre Arts, 2017</p>
+                    <p>Graduated Cum Laude</p>
+                    <p>Focus in English</p>
                 </div>
                 <div className='resume-div'>
                     <h2>Languages</h2>

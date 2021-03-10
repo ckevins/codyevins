@@ -349,6 +349,25 @@ export function TheatricalResume() {
                         <td>LD Maranda DeBusk</td>
                     </tr>
                 </table>
+            <br></br>
+            <h1>Education</h1>
+            <div className='theatrical-resume-lower'>
+                <h2>Furman University</h2>
+                <p>BA in Theatre Arts, 2017</p>
+                <p>Graduated Cum Laude</p>
+                <p>Focus in English</p>
+                <h2>Aurora Theatre Apprentice Company</h2>
+                <p>Technical Theatre Apprentice, 2018</p>
+            </div>
+            <h1>Skills</h1>
+            <div className='theatrical-resume-lower'>
+                <p>Eos Family Light Board Programming</p>
+                <p>QLab</p>
+                <p>Vectorworks</p>
+                <p>Digital Rendering</p>
+                <p>Carpentry</p>
+                <p>Basic Rigging</p>
+            </div>
         </div>
     )
 };
