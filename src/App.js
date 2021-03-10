@@ -27,7 +27,7 @@ function App() {
                 <Link to='/resume'>Resume</Link>
               </li>
               <li>
-                <Link to='/lighting-design'>Lighting Design</Link>
+                <Link to='/lighting'>Lighting Design</Link>
               </li>
             </ul>
           </nav>
@@ -38,7 +38,7 @@ function App() {
             <Route path='/about'>
               <About/>
             </Route>
-            <Route path='/lighting-design'>
+            <Route path='/lighting'>
               <LightingDesign/>
             </Route>
             <Route path='/'>

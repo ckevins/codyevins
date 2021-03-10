@@ -18,7 +18,7 @@ export function LightingDesign () {
                 <div className='show-tiles'>
                     <div>
                         <h1>Erma Bombeck: At Wit's End</h1>
-                        <Link to='/erma-bombeck'>
+                        <Link to='/lighting/erma-bombeck'>
                             <img src={ermaLink} 
                             alt='erma cover' 
                             id='lighting-link'/>
@@ -26,7 +26,7 @@ export function LightingDesign () {
                     </div> 
                     <div>
                         <h1>Zombie Prom</h1>
-                        <Link to='/zombie-prom'>
+                        <Link to='/lighting/zombie-prom'>
                             <img src={zombieLink} 
                             alt='zombie cover'
                             id='lighting-link'/>
@@ -34,7 +34,7 @@ export function LightingDesign () {
                     </div>
                     <div>
                         <h1>Aurora AppCo Showcase 2018</h1>
-                        <Link to='/aurora-appco-showcase'>
+                        <Link to='/lighting/aurora-appco-showcase'>
                             <img src={showcaseLink} 
                             alt='showcase cover' 
                             id='lighting-link'/>
@@ -42,7 +42,7 @@ export function LightingDesign () {
                     </div>
                     <div>
                         <h1>Five Course Love</h1>
-                        <Link to='/five-course-love'>
+                        <Link to='/lighting/five-course-love'>
                             <img src={fclLink} 
                             alt='fcl cover'
                             id='lighting-link'/>
