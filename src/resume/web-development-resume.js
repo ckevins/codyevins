@@ -31,6 +31,21 @@ export function WebDevelopmentResume() {
             <div className='resume-right-column'>
                 <div className='resume-div'>
                     <h2>Experience</h2>
+                    <h3>Freelance Lighting Designer</h3>
+                        <p>May 2018 - March 2020 | Atlanta, Georgia</p>
+                    <h3>Freelance Lighting Programmer</h3>
+                        <p>May 2018 - March 2020 | Atlanta, Georgia</p>
+                        <p>Assisted lighting designers through the tech process of plays and musicals.</p>
+                        <p>Responsible for programming all lighting cues of plays and musicals as desired by the lighting designers.</p>
+                        <p>Required fast paced programming as we would often have to program on the fly during live musical numbers.</p>
+                    <h3>Freelance Master Electrician</h3>
+                        <p>February 2018 - March 2020 | Atlanta, Georgia</p>
+                        <p>Worked closely with theatrical lighting designers to bring their designs to life.</p>
+                        <p>Analyzed lighting plots and built a plan for safe and efficient installation of all elements.</p>
+                        <p>Led a team of electricians through the installation, troubleshooting, and light focusing processes.</p>
+                        <p>Worked closely with production managers and technical directors to effectively work alongside carpenters as they installed scenic elements.</p>
+                    <h3>Freelance Sound Designer</h3>
+                        <p>May 2018 - February 2019 | Atlanta, Georgia</p>
                 </div>
                 <div className='resume-div'>
                     <h2>Honors</h2>
