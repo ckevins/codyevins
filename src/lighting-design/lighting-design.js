@@ -7,6 +7,7 @@ import {
 import ermaLink from './images/erma-bombeck/IMG_1662.png';
 import zombieLink from './images/zombie-prom/Honors Zombie Prom FinalHonors Zombie prom FinalZombie Prom Master_GGC7826.jpg';
 import showcaseLink from './images/appco-showcase/AppcoShowcase-27.jpg';
+import fclLink from './images/five-course-love/P216-C-200205-L.jpg';
 
 export function LightingDesign () {
     return (
@@ -41,11 +42,11 @@ export function LightingDesign () {
                     </div>
                     <div>
                         <h1>Five Course Love</h1>
-                        <Link to='/five-course-love'><img src='' alt='fcl cover'/></Link>
-                    </div>
-                    <div>
-                        <h1>The Addams Family</h1>
-                        <Link to='/addams-family'><img src='' alt='addams family cover'/></Link>
+                        <Link to='/five-course-love'>
+                            <img src={fclLink} 
+                            alt='fcl cover'
+                            id='lighting-link'/>
+                        </Link>
                     </div>
                 </div>
             </Router>

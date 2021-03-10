@@ -10,6 +10,7 @@ export function Home() {
                 <img src={logo} className="App-logo" alt="logo" />
                 <h1>Cody Evins</h1>
                 <h3>Full Stack Web Developer</h3>
+                <h3>Lighting Designer</h3>
             </header>
         </div>
     )
