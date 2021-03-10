@@ -24,7 +24,7 @@ export function TheatricalResume() {
                         <td>Dir. Stephanie Earle</td>
                     </tr>
                     <tr>
-                        <th>2019</th>
+                        <th className='year-column'>2019</th>
                         <td>Zombie Prom</td>
                         <td>Georgia Gwinnett College</td>
                         <td>Dir. Renita James</td>
@@ -36,7 +36,7 @@ export function TheatricalResume() {
                         <td>Dir. Megan Rose-Houchins</td>
                     </tr>
                     <tr>
-                        <th>2018</th>
+                        <th className='year-column'>2018</th>
                         <td>A Christams Carol</td>
                         <td>Heritage School</td>
                         <td>Dir. Candler Budd</td>
@@ -94,7 +94,7 @@ export function TheatricalResume() {
                         <td>LD Ben Rawson</td>
                     </tr>
                     <tr>
-                        <th>2018</th>
+                        <th className='year-column'>2018</th>
                         <td>Damn Yankees</td>
                         <td>Theatre Buford</td>
                         <td>LD Ben Rawson</td>
@@ -112,7 +112,7 @@ export function TheatricalResume() {
                         <td>LD Kevin Frazier</td>
                     </tr>
                     <tr>
-                        <th>2017</th>
+                        <th className='year-column'>2017</th>
                         <td>12 Dates of Christmas</td>
                         <td>Aurora Theatre Studio Series</td>
                         <td>LD Dylan Whitfield</td>
@@ -139,7 +139,7 @@ export function TheatricalResume() {
                             <td className='supervisor-column'>Dir. Daniel May</td>
                         </tr>
                         <tr>
-                            <th>2018</th>
+                            <th className='year-column'>2018</th>
                             <td>A Christmas Carol</td>
                             <td>Theatre Buford</td>
                             <td>Dir Julie Skrzypek</td>
@@ -184,7 +184,7 @@ export function TheatricalResume() {
                         <td>LD Mary Parker</td>
                     </tr>
                     <tr>
-                        <th>2019</th>
+                        <th className='year-column'>2019</th>
                         <td>Urban Nutcracker</td>
                         <td>Ballethnic</td>
                         <td>LD Mary Parker</td>
@@ -196,7 +196,7 @@ export function TheatricalResume() {
                         <td>LD Mary Parker</td>
                     </tr>
                     <tr>
-                        <th>2018</th>
+                        <th className='year-column'>2018</th>
                         <td>Urban Nutcracker</td>
                         <td>Ballethnic</td>
                         <td>LD Mary Parker</td>
@@ -229,7 +229,7 @@ export function TheatricalResume() {
                         <td>LD Mary Parker</td>
                     </tr>
                     <tr>
-                        <th>2019</th>
+                        <th className='year-column'>2019</th>
                         <td>Winter Wonderland</td>
                         <td>Ballethnic</td>
                         <td>LD Mary Parker</td>
@@ -301,7 +301,7 @@ export function TheatricalResume() {
                         <td>LD Mary Parker</td>
                     </tr>
                     <tr>
-                        <th>2018</th>
+                        <th className='year-column'>2018</th>
                         <td>Winter Wonderland</td>
                         <td>Ballethnic</td>
                         <td>LD Mary Parker</td>

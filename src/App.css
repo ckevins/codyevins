@@ -22,10 +22,25 @@
   color: #61dafb;
 }
 
+.app-router {
+  position:relative;
+  background-color: #201547;
+  padding-top: 10px;
+}
+
+.resume-router {
+  animation: slide 1s;
+  background-color: black;
+  padding-top: 10px;
+  position: relative;
+  z-index: -1;
+}
+
 .resume {
   width: 60%;
   margin: 50px auto;
   display: flex;
+  
 }
 
 .resume, h2 {
@@ -60,6 +75,7 @@
 
 .year-column {
   width: 5%;
+  font-size: 1.25em;
 }
 
 .show-column {
@@ -123,4 +139,9 @@ li a {
 
 #lighting-link {
   height: 400px;
+}
+
+@keyframes slide {
+  from { transform:translate(0, -65px) }
+  to { transform:translate(0, 0) }
 }

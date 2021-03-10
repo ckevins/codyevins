@@ -9,10 +9,10 @@ import {TheatricalResume} from './theatrical-resume';
 
 export function Resume() {
     return (
-      <div className>
+      <div>
         <Router>
           <div>
-            <nav>
+            <nav className='resume-router'>
               <ul>
                 <li>
                   <Link to='/resume'>Web Development</Link>
