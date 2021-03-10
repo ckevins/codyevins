@@ -2,7 +2,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  NavLink
 } from "react-router-dom";
 import './App.css';
 import { Home } from './home/home';
@@ -18,16 +19,16 @@ function App() {
           <nav className='app-router'>
             <ul>
               <li>
-                <Link to='/'>Home</Link>
+                <NavLink exact={true} activeClassName='selected' to='/'>Home</NavLink>
               </li>
               <li>
-                <Link to='/about'>About</Link>
+                <NavLink activeClassName='selected' to='/about'>About</NavLink>
               </li>
               <li>
-                <Link to='/resume'>Resume</Link>
+                <NavLink activeClassName='selected' to='/resume'>Resume</NavLink>
               </li>
               <li>
-                <Link to='/lighting'>Lighting Design</Link>
+                <NavLink activeClassName='selected' to='/lighting'>Lighting Design</NavLink>
               </li>
             </ul>
           </nav>

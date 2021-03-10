@@ -2,7 +2,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    NavLink
   } from "react-router-dom";
 import {WebDevelopmentResume} from './web-development-resume';
 import {TheatricalResume} from './theatrical-resume';
@@ -15,19 +16,19 @@ export function Resume() {
             <nav className='resume-router'>
               <ul>
                 <li>
-                  <Link to='/resume'>Web Development</Link>
+                  <NavLink activeClassName='selected' to='/resume'>Web Development</NavLink>
                 </li>
                 <li>
-                  <Link to='/theatrical-resume'>Theatrical</Link>
+                  <NavLink activeClassName='selected' to='/theatrical-resume'>Theatrical</NavLink>
                 </li>
               </ul>
             </nav>
             <Switch>
-              <Route path='/resume'>
-                <WebDevelopmentResume/>
-              </Route>
               <Route path='/theatrical-resume'>
                 <TheatricalResume/>
+              </Route>
+              <Route path='/resume'>
+                <WebDevelopmentResume/>
               </Route>
             </Switch>
           </div>

@@ -104,6 +104,9 @@
   margin: auto;
 }
 
+.selected {
+  text-decoration: underline;
+}
 
 body { 
   background-color: #201547;
