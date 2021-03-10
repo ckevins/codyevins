@@ -48,6 +48,28 @@
   padding: 15px;
 }
 
+.theatrical-resume {
+  padding: 50px 0;
+}
+
+.theatrical-resume-table {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+.year-column {
+  width: 5%;
+}
+
+.show-column {
+  width: 40%;
+}
+
+.supervisor-column {
+  width: 20%;
+}
+
 .lighting-portfolio {
   background-color: black;
   padding: 75px 0;
@@ -61,6 +83,7 @@
   justify-content: center;
   margin: auto;
 }
+
 
 body { 
   background-color: #201547;
