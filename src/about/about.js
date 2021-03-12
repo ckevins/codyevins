@@ -10,9 +10,7 @@ export function About() {
         <div className='about'>
             <div className='bio'>
                 <div>
-                    <p>Hello! I'm Cody. I have a lot to say. But I sure don't know what to say right now. 
-                        So I'm just gonna type and type and type until I run out of stuff to type. 
-                        I'm just trying to fill space for styling purposes.</p>
+                    <p>Hello! I'm Cody. I'm a theatre artist turned web developer from Franklin, Tennessee. I studied theatre arts in college at Furman University and moved down to Atlanta to pursue a career as a designer. I was gradually picking up momentum in that field when 2020 came along.  I went from numerous bookings to none at all in a matter of days.  With my future in theatre thrown into total uncertainty, I decided to use all the time stuck at home that 2020 gave me to learn web development so that I'd have the tools needed to transition to a new career in these uncertain times.</p>
                 </div>
                 <img src={headShot} alt='pic of Cody' id='head-shot'/>
             </div>
