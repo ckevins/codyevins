@@ -16,12 +16,12 @@ export function ErmaBombeck() {
             <p>Costume Designer: Alice Neff</p>
             <p>Photos: Casey Gardner</p>
             <div className='photo-container'>
-                <img src={erma1} alt='erma1' id='show-photo'/>
-                <img src={erma2} alt='erma2' id='show-photo'/>
-                <img src={erma3} alt='erma3' id='show-photo'/>
-                <img src={erma4} alt='erma4' id='show-photo'/>
-                <img src={erma5} alt='erma5' id='show-photo'/>
-                <img src={erma6} alt='erma6' id='show-photo'/>
+                <img src={erma1} alt='erma1' className='show-photo'/>
+                <img src={erma2} alt='erma2' className='show-photo'/>
+                <img src={erma3} alt='erma3' className='show-photo'/>
+                <img src={erma4} alt='erma4' className='show-photo'/>
+                <img src={erma5} alt='erma5' className='show-photo'/>
+                <img src={erma6} alt='erma6' className='show-photo'/>
             </div>
         </div>
     )

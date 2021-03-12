@@ -2,6 +2,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
+    NavLink,
     Link
   } from "react-router-dom";
 import ermaLink from './images/erma-bombeck/erma6.png';
@@ -17,12 +18,12 @@ import { FiveCourseLove } from './five-course-love';
 export function LightingDesign () {
     return (
         <div className='lighting-portfolio'>
-            <link rel="preconnect" href="https://fonts.gstatic.com"/>
-            <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet"/> 
             <Router>
                 <div className='show-tiles'>
                     <div>
-                        <h1>Erma Bombeck: At Wit's End</h1>
+                        <li>
+                            <NavLink activeClassName='selected' to='/erma-bombeck'>Erma Bombeck: At Wit's End</NavLink>
+                        </li>
                         <Link to='/erma-bombeck'>
                             <img src={ermaLink} 
                             alt='erma cover' 
@@ -30,7 +31,9 @@ export function LightingDesign () {
                         </Link>
                     </div> 
                     <div>
-                        <h1>Zombie Prom</h1>
+                        <li>
+                            <NavLink activeClassName='selected' to='/zombie-prom'>Zombie Prom</NavLink>
+                        </li>
                         <Link to='/zombie-prom'>
                             <img src={zombieLink} 
                             alt='zombie cover'
@@ -38,7 +41,9 @@ export function LightingDesign () {
                         </Link>
                     </div>
                     <div>
-                        <h1>Aurora AppCo Showcase</h1>
+                        <li>
+                            <NavLink activeClassName='selected' to='/aurora-appco-showcase'>Aurora AppCo Showcase</NavLink>
+                        </li>
                         <Link to='/aurora-appco-showcase'>
                             <img src={showcaseLink} 
                             alt='showcase cover' 
@@ -46,7 +51,9 @@ export function LightingDesign () {
                         </Link>
                     </div>
                     <div>
-                        <h1>Five Course Love</h1>
+                        <li>
+                            <NavLink activeClassName='selected' to='/five-course-love'>Five Course Love</NavLink>
+                        </li>
                         <Link to='/five-course-love'>
                             <img src={fclLink} 
                             alt='fcl cover'

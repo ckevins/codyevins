@@ -16,12 +16,12 @@ export function ZombieProm() {
             <p>Costume Designer: Alice Neff</p>
             <p>Photos: Rod Reilly</p>
             <div className='photo-container'>
-                <img src={zombie3} alt='zombie3' id='show-photo'/>
-                <img src={zombie4} alt='zombie4' id='show-photo'/>
-                <img src={zombie5} alt='zombie5' id='show-photo'/>
-                <img src={zombie6} alt='zombie6' id='show-photo'/>
-                <img src={zombie1} alt='zombie1' id='show-photo'/>
-                <img src={zombie2} alt='zombie2' id='show-photo'/>
+                <img src={zombie3} alt='zombie3' className='show-photo'/>
+                <img src={zombie4} alt='zombie4' className='show-photo'/>
+                <img src={zombie5} alt='zombie5' className='show-photo'/>
+                <img src={zombie6} alt='zombie6' className='show-photo'/>
+                <img src={zombie2} alt='zombie2' className='show-photo'/>
+                <img src={zombie1} alt='zombie1' className='show-photo'/>
             </div>
         </div>
     )

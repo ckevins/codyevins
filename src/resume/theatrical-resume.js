@@ -1,8 +1,6 @@
 export function TheatricalResume() {
     return (
         <div className='theatrical-resume'>
-            <link rel="preconnect" href="https://fonts.gstatic.com"/>
-            <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet"/> 
             <h1>Lighting Design</h1>
                 <table className='theatrical-resume-table'>
                     <tr>

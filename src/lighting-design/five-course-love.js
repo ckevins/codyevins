@@ -14,11 +14,11 @@ export function FiveCourseLove() {
             <p>Scenic Designer: Blaine Clotfelter</p>
             <p>Photos: Cloud 8 Photography</p>
             <div className='photo-container'>
-                <img src={fcl1} alt='erma1' id='show-photo'/>
-                <img src={fcl2} alt='erma2' id='show-photo'/>
-                <img src={fcl3} alt='erma3' id='show-photo'/>
-                <img src={fcl4} alt='erma4' id='show-photo'/>
-                <img src={fcl5} alt='erma5' id='show-photo'/>
+                <img src={fcl1} alt='erma1' className='show-photo'/>
+                <img src={fcl2} alt='erma2' className='show-photo'/>
+                <img src={fcl3} alt='erma3' className='show-photo'/>
+                <img src={fcl4} alt='erma4' className='show-photo'/>
+                <img src={fcl5} alt='erma5' className='show-photo'/>
             </div>
         </div>
     )

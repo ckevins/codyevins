@@ -25,23 +25,23 @@ export function AppcoShowcase() {
             <p>Director: Jaclyn Hofmann</p>
             <p>Photos: Casey Gardner</p>
             <div className='photo-container'>
-                <img src={appco1} alt='appco1' id='show-photo'/>
-                <img src={appco2} alt='appco2' id='show-photo'/>
-                <img src={appco3} alt='appco3' id='show-photo'/>
-                <img src={appco4} alt='appco4' id='show-photo'/>
-                <img src={appco5} alt='appco5' id='show-photo'/>
-                <img src={appco6} alt='appco6' id='show-photo'/>
-                <img src={appco7} alt='appco7' id='show-photo'/>
-                <img src={appco8} alt='appco8' id='show-photo'/>
-                <img src={appco9} alt='appco9' id='show-photo'/>
-                <img src={appco10} alt='appco10' id='show-photo'/>
-                <img src={appco11} alt='appco11' id='show-photo'/>
-                <img src={appco12} alt='appco12' id='show-photo'/>
-                <img src={appco13} alt='appco13' id='show-photo'/>
-                <img src={appco14} alt='appco14' id='show-photo'/>
-                <img src={appco15} alt='appco15' id='show-photo'/>
-                <img src={appco16} alt='appco16' id='show-photo'/>
-                <img src={appco17} alt='appco17' id='show-photo'/>
+                <img src={appco1} alt='appco1' className='show-photo'/>
+                <img src={appco2} alt='appco2' className='show-photo'/>
+                <img src={appco3} alt='appco3' className='show-photo'/>
+                <img src={appco4} alt='appco4' className='show-photo'/>
+                <img src={appco5} alt='appco5' className='show-photo'/>
+                <img src={appco6} alt='appco6' className='show-photo'/>
+                <img src={appco7} alt='appco7' className='show-photo'/>
+                <img src={appco8} alt='appco8' className='show-photo'/>
+                <img src={appco9} alt='appco9' className='show-photo'/>
+                <img src={appco10} alt='appco10' className='show-photo'/>
+                <img src={appco11} alt='appco11' className='show-photo'/>
+                <img src={appco12} alt='appco12' className='show-photo'/>
+                <img src={appco13} alt='appco13' className='show-photo'/>
+                <img src={appco14} alt='appco14' className='show-photo'/>
+                <img src={appco15} alt='appco15' className='show-photo'/>
+                <img src={appco16} alt='appco16' className='show-photo'/>
+                <img src={appco17} alt='appco17' className='show-photo'/>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
-import './App.css';
+import './App.scss';
 import { Home } from './home/home';
 import { Resume } from './resume/resume';
 import { About } from './about/about';
@@ -14,7 +14,7 @@ import { LightingDesign } from './lighting-design/lighting-design';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router> 
         <div>
           <nav className='app-router'>
             <ul>
