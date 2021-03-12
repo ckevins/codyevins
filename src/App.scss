@@ -55,6 +55,7 @@
 .about {
   animation: fade 1.5s ease-in;
   width: 60%;
+  min-width: 1000px;
   margin: auto;
 } 
 
@@ -79,6 +80,7 @@
 
 .resume {
   width: 60%;
+  min-width: 800px;
   margin: 50px auto;
   display: flex;
   align-items: stretch;
