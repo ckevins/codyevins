@@ -32,8 +32,8 @@
   padding-top: 10px;
   z-index: 1;
   font-family: 'Comfortaa', cursive;
-
 }
+
 
 .home-page {
   font-family: 'Comfortaa', cursive;
@@ -209,12 +209,18 @@ ul {
 li {
   margin: 0 30px;
   list-style-type: none;
+  transition: 1s;
 }
 
 li a {
   color: white;
   font-size: calc(10px + 2vmin);
   text-decoration: none;
+}
+
+li:hover {
+  transform: scale(1.15);
+  transition: 1s;
 }
 
 #head-shot {

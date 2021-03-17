@@ -7,7 +7,7 @@ import {
 export function Portfolio() {
     return(
         <div className='portfolio'>
-            <h1>Web Design Portfolio</h1>
+            <h1>Web Development Portfolio</h1>
                 <h2>Personal Websites</h2>
                     <h3>Cody Evins</h3>
                         <p>Full Stack Web Developer | Lighting Designer</p>
