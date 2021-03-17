@@ -9,6 +9,7 @@ import './App.scss';
 import { Home } from './home/home';
 import { Resume } from './resume/resume';
 import { About } from './about/about';
+import { Portfolio } from './portfolio/portfolio';
 import { LightingDesign } from './lighting-design/lighting-design';
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
                 <NavLink activeClassName='selected' to='/resume'>Resume</NavLink>
               </li>
               <li>
+                <NavLink activeClassName='selected' to='/portfolio'>Portfolio</NavLink>
+              </li>
+              <li>
                 <NavLink activeClassName='selected' to='/lighting'>Lighting Design</NavLink>
               </li>
             </ul>
@@ -38,6 +42,9 @@ function App() {
             </Route>
             <Route path='/about'>
               <About/>
+            </Route>
+            <Route path='/portfolio'>
+              <Portfolio/>
             </Route>
             <Route path='/lighting'>
               <LightingDesign/>

@@ -136,6 +136,23 @@
   text-align: left;
 }
 
+.portfolio {
+  font-family: 'Comfortaa', cursive;
+  animation: fade 1.5s ease-in;
+  padding: 75px;
+  width: 40%;
+  margin: auto;
+  h3, p {
+    text-align: left;
+  }
+  h3 {
+    text-decoration: underline;
+  }
+  a {
+    color: blanchedalmond
+  }
+}
+
 .lighting-portfolio {
   background-color: black;
   padding: 75px 0;
