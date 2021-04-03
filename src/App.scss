@@ -79,7 +79,7 @@
 }
 
 .resume {
-  width: 60%;
+  width: 70%;
   min-width: 800px;
   margin: 50px auto;
   display: flex;
@@ -87,8 +87,19 @@
   animation: fade 1.5s ease-in;
 }
 
+.print-pdf {
+  font-size: 2em;
+  padding-top: 10px;
+  a {
+    color: blanchedalmond;
+  }
+}
+
 .resume-left-column {
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .resume-right-column {
