@@ -16,7 +16,7 @@ export function Portfolio() {
                         <p>Actress | Writer </p>
                         <p><a href="https://megharkins.herokuapp.com/">megharkins.herokuapp.com</a></p>
                 <h2>Applications</h2>
-                    <h3>Furman Theatre (Golf) Darts</h3>
+                    <h3>Furman Theatre Golf Darts</h3>
                         <p>An application for inputting scores and tracking statistics and rankings for a darts game based on golf.</p>
                         <p><a href="https://golf-darts.herokuapp.com/">golf-darts.herokuapp.com</a></p>
             <div className="social">
