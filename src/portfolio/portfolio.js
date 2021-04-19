@@ -11,7 +11,7 @@ export function Portfolio() {
                 <h2>Personal Websites</h2>
                     <h3>Cody Evins</h3>
                         <p>Full Stack Web Developer | Lighting Designer</p>
-                        <p><a href="https://codyevins.herokuapp.com/">codyevins.herokuapp.com</a></p>
+                        <p><a href="https://codyevins.com/">codyevins.com</a></p>
                     <h3>Meg Harkins</h3>
                         <p>Actress | Writer </p>
                         <p><a href="https://megharkins.herokuapp.com/">megharkins.herokuapp.com</a></p>
