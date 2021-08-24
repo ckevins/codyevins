@@ -4,6 +4,12 @@ export function TheatricalResume() {
             <h1>Lighting Design</h1>
                 <table className='theatrical-resume-table'>
                     <tr>
+                        <th className='year-column'>2021</th>
+                        <td className='show-column'>Hometown Boy **</td>
+                        <td>Actor's Express</td>
+                        <td className='supervisor-column'>Dir. Donya K. Washington</td>
+                    </tr>
+                    <tr>
                         <th className='year-column'>2020</th>
                         <td className='show-column'>Erma Bombeck: At Wit's End *</td>
                         <td>Aurora Theatre</td>
@@ -77,6 +83,7 @@ export function TheatricalResume() {
                     </tr>
                 </table>
                 <p>* Cancelled due to Covid-19</p>
+                <p>** Upcoming</p>
             <h1>Assistant Lighting Design</h1>
                 <table className='theatrical-resume-table'>
                     <tr>
