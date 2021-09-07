@@ -6,14 +6,14 @@ export function TheatricalResume() {
                     <tr>
                         <th className='year-column'>2021</th>
                         <td className='show-column'>Hometown Boy **</td>
-                        <td>Actor's Express</td>
+                        <td className='venue-column'>Actor's Express</td>
                         <td className='supervisor-column'>Dir. Donya K. Washington</td>
                     </tr>
                     <tr>
                         <th className='year-column'>2020</th>
-                        <td className='show-column'>Erma Bombeck: At Wit's End *</td>
+                        <td>Erma Bombeck: At Wit's End *</td>
                         <td>Aurora Theatre</td>
-                        <td className='supervisor-column'>Dir. Megan Rose-Houchins</td>
+                        <td>Dir. Megan Rose-Houchins</td>
                     </tr>
                     <tr>
                         <th></th>

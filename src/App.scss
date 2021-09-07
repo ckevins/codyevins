@@ -50,12 +50,9 @@
   }
 }
 
-
-
 .about {
   animation: fade 1.5s ease-in;
   width: 60%;
-  min-width: 1000px;
   margin: auto;
 } 
 
@@ -80,9 +77,7 @@
 
 .resume {
   width: 70%;
-  min-width: 800px;
   margin: 50px auto;
-  display: flex;
   align-items: stretch;
   animation: fade 1.5s ease-in;
 }
@@ -98,19 +93,6 @@
   }
 }
 
-
-
-.resume-left-column {
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.resume-right-column {
-  width: 70%;
-}
-
 .resume-div {
   background-color: white;
   border: blanchedalmond ridge 5px;
@@ -122,41 +104,13 @@
 
 
 .theatrical-resume {
-  padding: 50px 0;
   font-family: 'Comfortaa', cursive;
   animation: fade 1.5s ease-in;
-}
-
-.theatrical-resume-table {
-  width: 75%;
-  margin: auto;
-  text-align: left;
-}
-
-.year-column {
-  width: 5%;
-  font-size: 1.25em;
-}
-
-.show-column {
-  width: 40%;
-}
-
-.supervisor-column {
-  width: 20%;
-}
-
-.theatrical-resume-lower {
-  width: 25%;
-  margin: auto;
-  text-align: left;
 }
 
 .portfolio {
   font-family: 'Comfortaa', cursive;
   animation: fade 1.5s ease-in;
-  padding: 75px;
-  width: 40%;
   margin: auto;
   h3, p {
     text-align: left;
@@ -176,32 +130,8 @@
   animation: fade 1.5s ease-in;
 }
 
-.show-tiles {
-  display: flex;
-  width: 80%;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-}
-
-.show-gallery {
-  padding-top: 50px;
-}
-
 .selected {
   color:blanchedalmond;
-}
-
-.photo-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: space-evenly;
-}
-
-.show-photo {
-  height: 400px;
-  padding: 50px 0;
 }
 
 body { 
@@ -247,11 +177,7 @@ li:hover {
 }
 
 
-#lighting-link {
-  height: 400px;
-  transition: transform 0.5s;
-  padding: 20px;
-}
+
 
 #lighting-link:hover{
   transform: scale(1.1);
@@ -275,4 +201,258 @@ li:hover {
   0% {
     opacity: 0;
   }
+}
+
+@media (min-width: 320px) and (max-width: 999px) {
+
+  // Mobile and tablet CSS
+
+  ul {
+    display:block;
+    align-items: flex-end;
+    padding-left: 0px;
+  }
+
+  .about {
+    width: 75%;
+    margin: auto;
+    padding-top: 10px;
+  } 
+  
+  .bio {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    p {
+      font-size: 1.2em;
+    }
+  }
+
+  #head-shot {
+    height: 250px;
+    margin: auto;
+  }
+
+  .resume {
+    width: 90%;
+    margin: 20px auto;
+    align-items: stretch;
+  }
+  .resume-div {
+    background-color: white;
+    border: blanchedalmond ridge 5px;
+    color: black;
+    text-align: left;
+    margin: 10px;
+    padding: 15px;
+  }
+  .theatrical-resume {
+    padding: 50px 0;
+    font-family: 'Comfortaa', cursive;
+    animation: fade 1.5s ease-in;
+  }
+  .theatrical-resume-table {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    font-size: 0.8em;
+    border-spacing: 15px;
+  }
+  .year-column {
+    font-size: 1.2em;
+  }
+  .show-column {
+    width: 30%;
+  }
+  .venue-column {
+    width: 30%;
+  }
+  .supervisor-column {
+    width: 30%;
+  }
+  .theatrical-resume-lower {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .portfolio {
+    font-family: 'Comfortaa', cursive;
+    animation: fade 1.5s ease-in;
+    width: 90%;
+    margin: auto;
+    h3, p {
+      text-align: left;
+    }
+    h3 {
+      text-decoration: underline;
+    }
+    a {
+      color: blanchedalmond
+    }
+  }
+
+  .lighting-portfolio {
+    padding: 20px 0;
+  }
+
+  .show-tiles {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .show-gallery {
+    padding-top: 50px;
+  }
+  
+  .selected {
+    color:blanchedalmond;
+  }
+  
+  .photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+  }
+  
+  .show-photo {
+    width: 90%;
+    padding: 20px;
+  }
+
+  #lighting-link {
+    width: 90%;
+    padding: 20px;
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+
+  // Laptop/desktop CSS
+  .about {
+    animation: fade 1.5s ease-in;
+    width: 60%;
+    min-width: 1000px;
+    margin: auto;
+  } 
+  
+  .bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  .resume {
+    width: 70%;
+    min-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    align-items: stretch;
+    animation: fade 1.5s ease-in;
+  }
+
+  .resume-left-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .resume-right-column {
+    width: 70%;
+  }
+
+  .theatrical-resume {
+    padding: 50px 0;
+  }
+  
+  .theatrical-resume-table {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .year-column {
+    width: 5%;
+    font-size: 1.25em;
+  }
+  
+  .show-column {
+    width: 40%;
+  }
+  
+  .supervisor-column {
+    width: 20%;
+  }
+  
+  .theatrical-resume-lower {
+    width: 25%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .portfolio {
+    font-family: 'Comfortaa', cursive;
+    animation: fade 1.5s ease-in;
+    padding: 50px 0;
+    width: 60%;
+    margin: auto;
+    h3, p {
+      text-align: left;
+    }
+    h3 {
+      text-decoration: underline;
+    }
+    a {
+      color: blanchedalmond
+    }
+  }
+
+  .lighting-portfolio {
+    padding: 75px 0;
+  }
+
+  .show-tiles {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .show-gallery {
+    padding-top: 50px;
+  }
+  
+  .selected {
+    color:blanchedalmond;
+  }
+  
+  .photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+  }
+  
+  .show-photo {
+    height: 400px;
+    padding: 50px 0;
+  }
+
+  #lighting-link {
+    height: 400px;
+    transition: transform 0.5s;
+    padding: 20px;
+  }
+
 }
