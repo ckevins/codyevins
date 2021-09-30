@@ -7,7 +7,7 @@ export function TheatricalResume() {
                         <th className='year-column'>2021</th>
                         <td className='show-column'>Hometown Boy **</td>
                         <td className='venue-column'>Actor's Express</td>
-                        <td className='supervisor-column'>Dir. Donya K. Washington</td>
+                        <td className='supervisor-column'>Dir. Rebecca Wear</td>
                     </tr>
                     <tr>
                         <th className='year-column'>2020</th>
