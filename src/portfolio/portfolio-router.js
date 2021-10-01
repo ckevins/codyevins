@@ -4,8 +4,10 @@ import {
     Route,
     NavLink
   } from "react-router-dom";
-  import {Portfolio} from './portfolio';
-  import {LightingDesign} from './lighting-design';
+  import { WebDevPortfolio } from './web-dev-portfolio';
+  import { LightingDesign } from './lighting-design';
+  import { GraphicDesign } from "./graphic-design";
+  import { Woodworking } from "./woodworking";
 
   export function PortfolioRouter() {
     return (
@@ -20,15 +22,27 @@ import {
                 <li>
                   <NavLink activeClassName='selected' to='/lighting-design'>Lighting Design</NavLink>
                 </li>
+                <li>
+                    <NavLink activeClassName='selected' to='/graphic-design'>Graphic Design</NavLink>
+                </li>
+                <li>
+                    <NavLink activeClassName='selected' to='/woodworking'>Woodworking</NavLink>
+                </li>
               </ul>
             </nav>
             <Switch>
-              <Route path='/lighting-design'>
-                <LightingDesign/>
-              </Route>
-              <Route path='/portfolio'>
-                <Portfolio/>
-              </Route>
+                <Route path='/lighting-design'>
+                    <LightingDesign/>
+                </Route>
+                <Route path='/graphic-design'>
+                    <GraphicDesign/>
+                </Route>
+                <Route path='/woodworking'>
+                    <Woodworking/>
+                </Route>
+                <Route path='/portfolio'>
+                    <WebDevPortfolio/>
+                </Route>
             </Switch>
           </div>
         </Router>

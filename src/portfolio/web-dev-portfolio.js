@@ -4,7 +4,7 @@ import {
   } from 'react-icons/fa';
 
 
-export function Portfolio() {
+export function WebDevPortfolio() {
     return(
         <div className='portfolio'>
             <h1>Web Development Portfolio</h1>
