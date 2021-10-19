@@ -24,6 +24,7 @@ export function WebDevelopmentResume() {
                     <h2>Frameworks</h2>
                     <p>Node.js</p>
                     <p>React</p>
+                    <p>Vue</p>
                     <p>Express</p>
                     <p>Git</p>
                     <p>Zsh</p>

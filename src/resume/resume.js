@@ -15,10 +15,10 @@ export function Resume() {
             <nav className='resume-router'>
               <ul>
                 <li>
-                  <NavLink activeClassName='selected' to='/resume'>Web Development</NavLink>
+                  <NavLink activeClassName='sub-selected' to='/resume'>Web Development</NavLink>
                 </li>
                 <li>
-                  <NavLink activeClassName='selected' to='/theatrical-resume'>Theatrical</NavLink>
+                  <NavLink activeClassName='sub-selected' to='/theatrical-resume'>Theatrical</NavLink>
                 </li>
               </ul>
             </nav>

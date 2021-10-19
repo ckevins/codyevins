@@ -1,4 +1,4 @@
-import headShot from './Cody_02.jpg';
+import headShot from './Cody_2021-5.jpg';
 import {
     FaLinkedin,
     FaGithub
@@ -9,10 +9,22 @@ export function About() {
     return(
         <div className='about'>
             <div className='bio'>
-                <div>
-                    <p>Hello! I'm Cody. I'm a theatre artist turned web developer from Franklin, Tennessee. I studied theatre arts at Furman University and moved to Atlanta to pursue a career as a designer. I was gradually picking up momentum in that field when 2020 came along. At the beginning of the pandemic, I went from numerous bookings throughout the year to none at all in a matter of days. With my future in theatre thrown into total uncertainty, I decided to use all the time stuck at home that 2020 brought me to learn web development so that I'd have the tools needed to transition to a new career in these uncertain times.</p>
-                </div>
                 <img src={headShot} alt='pic of Cody' id='head-shot'/>
+                <div>
+                    <p>
+                        Hello! I'm Cody. I'm a theatre artist and web developer based in Nashville, Tennessee.
+                    </p>
+                    <p>
+                        I studied theatre arts at Furman University where I gained experience both on and off stage.
+                        After graduating, I became a Technical Theatre Apprentice at the Aurora Theatre in Lawrenceville, GA, where I began to work primarily in the lighting department.
+                        After completing my apprenticeship, I began working in the Atlanta area primarily as a Master Electrician and Lighting Designer with a few sound designs here and there.
+                    </p>
+                    <p>
+                        My theatre career was beginning to pick up momentum in early 2020 when it then came to a screeching halt.  
+                        Suddenly with a lot of time on my hands, I decided to teach myself some new skills since I knew that a career in theatre was no longer a certainty.
+                        I began to teach myself how to code with an emphasis on JavaScript and React.
+                    </p>
+                </div>
             </div>
             <div className="social">
                 <a href="https://www.linkedin.com/in/codyevins/"><FaLinkedin /></a>
