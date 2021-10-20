@@ -22,7 +22,7 @@ export function Art () {
             <h3>World Building</h3>
             <p>A series of drafts of the map of Valtheonaa, an island for a Dungeons and Dragons campaign.  
                 Unlabeled geography had not yet been visited at time of draft.
-                Older drafts shown to show progression.</p>  
+                Older drafts shown to highlight progression.</p>  
             <p>Original geography by our dungeon master, Brett Rogers.</p>
             <div className='valtheonaa-maps'>
                 <img src={valtheonaa4} alt='valtheonaa-draft-4' className='world-building'/>
