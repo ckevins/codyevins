@@ -122,6 +122,21 @@
   }
 }
 
+.art-portfolio {
+  font-family: 'Comfortaa', cursive;
+  animation: fade 1.5s ease-in;
+  width: 90%;
+  margin: auto;
+  p {
+    text-align: left;
+    padding: 10px;
+  }
+}
+
+.graphic-design {
+  width: 30%;
+}
+
 .lighting-portfolio {
   background-color: black;
   padding: 75px 0;
@@ -294,6 +309,19 @@ li:hover {
     }
   }
 
+  .world-building {
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px
+  }
+  
+  .world-building-draft {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+
   .lighting-portfolio {
     padding: 20px 0;
   }
@@ -406,8 +434,6 @@ li:hover {
   }
 
   .portfolio {
-    font-family: 'Comfortaa', cursive;
-    animation: fade 1.5s ease-in;
     padding: 50px 0;
     width: 50%;
     margin: auto;
@@ -424,6 +450,28 @@ li:hover {
     a {
       color: blanchedalmond
     }
+  }
+
+  .art-portfolio {
+    padding: 50px 0;
+    width: 50%;
+    margin: auto;
+  };
+
+  .valtheonaa-maps {
+    display: flex;
+  }
+
+  .world-building {
+    height: 95vh;
+    border-radius: 10px;
+    margin: 10px
+  }
+  
+  .world-building-draft {
+    height: 30vh;
+    border-radius: 10px;
+    margin: 10px;
   }
 
   .lighting-portfolio {
